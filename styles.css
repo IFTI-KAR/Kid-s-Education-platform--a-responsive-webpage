@@ -476,8 +476,9 @@
 
 /* ------------ */
 .mar{
-    background-color: aqua;
-    
+    background-color: none;
+    margin-top: 20px;
+    font-size: 27px;
     
 }
 
@@ -485,7 +486,7 @@
     background: rgb(1, 172, 253);
 }
 
-.kids {
+.kids{
     
     padding: 50px 20px; 
     display: flex;
@@ -495,7 +496,7 @@
     margin-right: 140px;
 }
 
-.sections {
+.sections{
     display: flex;
     gap: 170px; 
     max-width: 1200px;
@@ -504,25 +505,25 @@
 }
 
 
-.logo-write {
+.logo-write{
     display: flex;
     align-items: center;
     gap: 15px;
 }
 
-.logo-write img {
+.logo-write img{
     width: 100px;
     height: 100px;
 }
 
-.logo-write h1 {
+.logo-write h1{
     color: white;
     font-family: Quicksand, sans-serif;
     font-size: 2.5rem;
     font-weight: 700;
 }
 
-.part1 p {
+.part1 p{
     color: white;
     font-family: Quicksand, sans-serif;
     font-size: 1rem;
@@ -532,7 +533,7 @@
 }
 
 .part2 h1,
-.part3 h1 {
+.part3 h1{
     color: white;
     font-family: Quicksand, sans-serif;
     font-size: 1.6rem;
@@ -540,7 +541,7 @@
     margin-bottom: 15px;
 }
 
-.options h3 {
+.options h3{
     color: white;
     font-family: Quicksand, sans-serif;
     font-size: 1.2rem;
@@ -551,12 +552,12 @@
 }
 
 
-.socials {
+.socials{
     display: flex;
     gap: 15px; 
 }
 
-.socials img {
+.socials img{
     width: 40px;
     height: 40px;
     
@@ -590,7 +591,7 @@
 /* Media quesries */
 
 @media screen and (max-width: 576px) {
-    .navigation {
+    .navigation{
         
         justify-content: space-between;
         align-items: center;
@@ -600,33 +601,33 @@
     }
 
 
-    .school {
+    .school{
         display: none; 
     }
 
-    .navbar {
+    .navbar{
         display: none; 
     }
 
-    .contact {
+    .contact{
         display: none; 
     }
 
-    .icon {
+    .icon{
         display: block;
         background: none;
         border: none;
         
     }
 
-    .icon div {
+    .icon div{
         width: 25px;
         height: 3px;
         background-color: black;
         margin: 4px 0;
         border-radius:2px;
     } 
-    .nav-line {
+    .nav-line{
         display: block; 
         margin-top: 15px;
         width: 100%;
@@ -660,7 +661,7 @@
         
     }
 
-    .container-title {
+    .container-title{
         
         font-size: 2rem;
         font-weight: 700;
@@ -670,7 +671,7 @@
             
     }
 
-    .writing p {
+    .writing p{
         font-size: 1rem; 
         line-height: 1.5rem;
         margin-bottom: 16px;
@@ -678,7 +679,7 @@
         
     }
 
-    .enroll {
+    .enroll{
         display: flex; 
         justify-content: center;
         align-items: center;
@@ -687,7 +688,7 @@
         margin: 0 auto; 
     }
     .curr h1{
-        font-size: 2rem;
+        font-size: 1.5rem;
         margin: 0 auto;
     }
     .levels{
@@ -724,12 +725,12 @@
         text-align: left;
     }
 
-    .footy {
+    .footy{
         overflow-x: hidden; 
         width: 100%; 
     }
 
-    .kids {
+    .kids{
         flex-direction: column;
         padding: 20px 10px;
         margin: 0;
@@ -737,14 +738,14 @@
         align-items: center; 
     }
 
-    .sections {
+    .sections{
         flex-direction: column;
         gap: 30px; 
         align-items: center;
         text-align: center; 
     }
 
-    .logo-write {
+    .logo-write{
         /* flex-direction: column; */
         gap: 10px; 
     }
@@ -766,26 +767,26 @@
         margin: 10px 0;
     }
 
-    .part2, .part3 {
+    .part2, .part3{
         width: 100%; 
     }
 
     .part2 h1,
-    .part3 h1 {
+    .part3 h1{
         font-size: 1.4rem;
     }
 
-    .options h3 {
+    .options h3{
         font-size: 1rem;
         margin: 5px 0;
     }
 
-    .socials {
+    .socials{
         gap: 15px; 
         justify-content: center;
     }
 
-    .socials img {
+    .socials img{
         width: 30px;
         height: 30px;
     }
