@@ -588,7 +588,11 @@
 }
 
 
-
+.butt:hover, .contact:hover, .enroll:hover {
+    background-color: #e90505;
+    color: #fff;
+   
+  }
 
 
 
